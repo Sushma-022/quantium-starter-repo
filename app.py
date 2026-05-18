@@ -24,7 +24,7 @@ def update_graph(selected_region):
     if selected_region == 'All':
         filtered_df = df
     else:
-        filtered_df = df[df['region'] == selected_region]
+        filtered_df = df[df['region'] == selected_region.lower()]
     fig = px.line(filtered_df, x='date', y='sales', title=f'Pink Morsel Sales - {selected_region.title()} Region')
     return fig
 if __name__ == '__main__':
