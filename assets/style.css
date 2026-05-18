@@ -1,0 +1,18 @@
+body {
+    background-color : lightsteelblue;
+}
+ h1{
+    color : black;
+    font-size : large;
+    text-align :center;
+ }
+
+ #region-filter{
+    background-color: aliceblue;
+    padding : 10px;
+    border-radius: 5px;
+ }
+ #sales-line-chart{
+    margin-top: 20px;
+    border-radius : 5px;
+ }
